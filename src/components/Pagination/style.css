@@ -1,0 +1,13 @@
+.d-inline-flex button{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* .page-link:hover{
+    background-color: blue;
+}
+.page-link:actived{
+    background-color: blue;
+} */
+li > a:link{ 
+    background-color: red;
+}
