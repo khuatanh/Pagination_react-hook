@@ -3,6 +3,7 @@ import './App.css';
 import PostList from './components/PostList/index.jsx';
 import Pagination from './components/Pagination/index.jsx';
 import SearchValue from './components/SearchValue/index';
+import Clock from './components/Clock/index';
 import qureyString from 'query-string';
 
 
@@ -65,7 +66,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2> POST LIST</h2>
+      <h2> POST LIST</h2> 
       <SearchValue onSubmit={hadleFilterFromSubmit} />
       <PostList posts={curentPost} loading={loading}/>
       <Pagination
@@ -73,6 +74,7 @@ function App() {
         onPageChange= {handlePageChange}
         _totalRows={postList.length}
       />
+      <Clock />
     </div>
   );
 }

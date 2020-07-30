@@ -1,0 +1,10 @@
+p{
+    font-size: 42px;
+    color: salmon;
+    position: fixed;
+    top: 0px;
+    right: 20px;
+}
+@media (max-width : 767px ){
+    p{display: none};
+}
